@@ -1,7 +1,7 @@
 %define	version	2.0
-%define release	%mkrel 1
+%define release	%mkrel 2
 
-%define pidgin_version 2.0.0
+%define pidgin_version 2.2.1
 
 Summary:	Update Pidgin user info with music info playing in Rhythmbox
 Name:		pidgin-rhythmbox
