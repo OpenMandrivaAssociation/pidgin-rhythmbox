@@ -11,7 +11,6 @@ License:	GPL
 Group:		Networking/Instant messaging
 URL:		http://jon.oberheide.org/projects/pidgin-rhythmbox/
 Source:		http://jon.oberheide.org/projects/pidgin-rhythmbox/downloads/%{name}-%{version}.tar.bz2
-Buildroot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:	pidgin-devel >= %{pidgin_version}
 BuildRequires:	gtk2-devel
 BuildRequires:	dbus-glib-devel
