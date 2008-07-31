@@ -1,5 +1,5 @@
 %define	version	2.0
-%define release	%mkrel 5
+%define release	%mkrel 6
 
 %define pidgin_version 2.2.1
 
