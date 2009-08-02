@@ -1,5 +1,5 @@
 %define	version	2.0
-%define release	%mkrel 6
+%define release	%mkrel 7
 
 %define pidgin_version 2.2.1
 
@@ -7,7 +7,7 @@ Summary:	Update Pidgin user info with music info playing in Rhythmbox
 Name:		pidgin-rhythmbox
 Version:	%{version}
 Release:	%{release}
-License:	GPL
+License:	GPLv2+
 Group:		Networking/Instant messaging
 URL:		http://jon.oberheide.org/projects/pidgin-rhythmbox/
 Source:		http://jon.oberheide.org/projects/pidgin-rhythmbox/downloads/%{name}-%{version}.tar.bz2
@@ -35,8 +35,7 @@ protocol in 2.0.
 
 %prep
 %setup -q -n %name-%version
-aclocal
-autoconf
+autoreconf -fi
 
 %build
 %configure2_5x
