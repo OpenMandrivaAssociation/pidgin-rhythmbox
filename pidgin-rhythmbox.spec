@@ -15,6 +15,7 @@ Buildroot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:	pidgin-devel >= %{pidgin_version}
 BuildRequires:	gtk2-devel
 BuildRequires:	dbus-glib-devel
+BuildRequires:	automake
 Requires:	pidgin >= %{pidgin_version}
 Requires:	rhythmbox
 Provides: gaim-rhythmbox
