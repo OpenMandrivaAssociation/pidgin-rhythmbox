@@ -3,7 +3,7 @@
 Summary:	Update Pidgin user info with music info playing in Rhythmbox
 Name:		pidgin-rhythmbox
 Version:	2.0
-Release:	9
+Release:	10
 License:	GPLv2+
 Group:		Networking/Instant messaging
 URL:		http://jon.oberheide.org/projects/pidgin-rhythmbox/
