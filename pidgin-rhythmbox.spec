@@ -6,7 +6,7 @@ Version:	2.0
 Release:	10
 License:	GPLv2+
 Group:		Networking/Instant messaging
-URL:		http://jon.oberheide.org/projects/pidgin-rhythmbox/
+URL:		https://jon.oberheide.org/projects/pidgin-rhythmbox/
 Source:		http://jon.oberheide.org/projects/pidgin-rhythmbox/downloads/%{name}-%{version}.tar.bz2
 Source1:        %{name}.rpmlintrc
 BuildRequires:	pidgin-devel >= %{pidgin_version}
